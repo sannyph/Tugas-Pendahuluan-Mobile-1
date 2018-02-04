@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.spy_support.studikasus1.SecondActivity">
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/judul1"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/tempatMakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/judul1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/displayTempat"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/tempatMakan"
+        android:layout_centerHorizontal="true"
+        android:text="Menu"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:text="@string/displayMenu"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/porsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/tempatMakan"
+        android:layout_centerHorizontal="true"
+        android:text="Porsi"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/porsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:text="@string/displayPorsi"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/tempatMakan"
+        android:layout_centerHorizontal="true"
+        android:text="Harga"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/harga2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:text="@string/displayHarga"
+        android:textSize="28sp"
+        />
+
+</LinearLayout>

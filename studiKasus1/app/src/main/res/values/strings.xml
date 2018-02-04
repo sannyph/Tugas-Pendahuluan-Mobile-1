@@ -1,0 +1,13 @@
+<resources>
+    <string name="appname">Sanny Putra Hendarsyah_1202154121_Modul1</string>
+    <string name="judul1">Makan Malam</string>
+    <string name="judul2">dengan Milea</string>
+    <string name="buttonEatbus">EATBUS</string>
+    <string name="buttonAbnormal">ABNORMAL</string>
+    <string name="menuMakanan">Masukkan Menu Makanan</string>
+    <string name="porsiMakanan">Masukkan Porsi makanan</string>
+    <string name="displayTempat">Tempat Nyaman</string>
+    <string name="displayMenu">Makanan Gokil</string>
+    <string name="displayPorsi">Secukupnya</string>
+    <string name="displayHarga">Harga Pas</string>
+</resources>
